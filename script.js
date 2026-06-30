@@ -407,7 +407,3 @@ const world = new World({
 
 world.loop();
 const music = new Audio("music.mp3");
-
-document.getElementById("play-music").addEventListener("click", () => {
-    music.play();
-});
